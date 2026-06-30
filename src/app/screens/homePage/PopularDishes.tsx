@@ -8,7 +8,6 @@ import Typography from "@mui/joy/Typography";
 import CardOverflow from "@mui/joy/CardOverflow";
 import VisibilityIcon from "@mui/icons-material/Visibility";
 import DescriptionOutlinedIcon from "@mui/icons-material/DescriptionOutlined";
-import LocationOnRoundedIcon from "@mui/icons-material/LocationOnRounded";
 
 const list = [
   { productName: "Lavash", imagePath: "/img/lavash.webp" },

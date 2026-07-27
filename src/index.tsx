@@ -14,6 +14,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 const container = document.getElementById("root")!;
 const root = createRoot(container);
 
+// Global Integration => REDUX MUI ROUTER
 root.render(
   <React.StrictMode>
     <Provider store={store}>

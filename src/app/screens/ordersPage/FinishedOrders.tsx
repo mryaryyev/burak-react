@@ -1,7 +1,6 @@
 import React from "react";
 import { Box, Stack } from "@mui/material";
 import TabPanel from "@mui/lab/TabPanel";
-
 import { useSelector } from "react-redux";
 import { createSelector } from "reselect";
 import { retrieveFinishedOrders } from "./selector";
@@ -33,7 +32,7 @@ export default function FinishedOrders() {
                   return (
                     <Box key={item._id} className={"orders-name-price"}>
                       <img
-                        src={"/img/kebab-fresh.webp"}
+                        src={imagePath}
                         className={"order-dish-img"}
                         alt=""
                       />

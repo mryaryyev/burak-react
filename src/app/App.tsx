@@ -42,7 +42,7 @@ function App() {
       setAuthMember(null);
     } catch (err) {
       console.log(err);
-      sweetErrorHandling(Messages.error1, 700);
+      sweetErrorHandling(Messages.error1);
     }
   };
 

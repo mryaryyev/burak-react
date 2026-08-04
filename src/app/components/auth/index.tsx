@@ -91,7 +91,7 @@ export default function AuthenticationModal(props: AuthenticationModalProps) {
     } catch (err) {
       console.log(err);
       handleSignupClose();
-      sweetErrorHandling(err, 700).then();
+      sweetErrorHandling(err).then();
     }
   };
 
@@ -113,7 +113,7 @@ export default function AuthenticationModal(props: AuthenticationModalProps) {
     } catch (err) {
       console.log(err);
       handleLoginClose();
-      sweetErrorHandling(err, 700).then();
+      sweetErrorHandling(err).then();
     }
   };
 

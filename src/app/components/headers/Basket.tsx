@@ -50,7 +50,7 @@ export default function Basket() {
       history.push("/orders");
     } catch (err) {
       console.log(err);
-      sweetErrorHandling(err, 7000).then();
+      sweetErrorHandling(err).then();
     }
   };
 

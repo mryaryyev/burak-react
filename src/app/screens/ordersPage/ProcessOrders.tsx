@@ -54,7 +54,7 @@ export default function ProcessOrders(props: ProcessOrdersProps) {
       }
     } catch (err) {
       console.log(err);
-      sweetErrorHandling(err, 7000).then();
+      sweetErrorHandling(err).then();
     }
   };
 

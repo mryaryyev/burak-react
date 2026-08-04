@@ -49,7 +49,7 @@ export default function PausedOrders(props: PausedOrdersProps) {
       }
     } catch (err) {
       console.log(err);
-      sweetErrorHandling(err, 7000).then();
+      sweetErrorHandling(err).then();
     }
   };
 
@@ -77,7 +77,7 @@ export default function PausedOrders(props: PausedOrdersProps) {
       }
     } catch (err) {
       console.log(err);
-      sweetErrorHandling(err, 7000).then();
+      sweetErrorHandling(err).then();
     }
   };
 
